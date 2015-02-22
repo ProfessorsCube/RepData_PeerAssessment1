@@ -52,7 +52,7 @@ features <- rbind(featurestest, featurestrain)
 
 # Create column names for the featurelabels
 # Ensure that the column names are unique, otherwise we'll encounter errors later when merging
-colnames(features) <- make.names(featurelabels$featurename, unique=TRUE)
+colnames(features) <- make.names(featurelabels$featurename, unique=T)
 
 # add the activity, subject feature data together
 mergedata<-cbind(activity, subject, features)
