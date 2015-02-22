@@ -17,11 +17,11 @@ For Q1, I began by exploring the dataset, simple head/dim function
 Note: Need to do a rbind followed by cbind or vice versa
 Note: y = activity where x = subject 
 
-First, I imported all test, training, subject, features, activityType data with header set as False. 
+First, I imported all test, training data by activity, subject, features, with header set as False. 
 
-Second, I ensure proper naming of columns 
+Second, rbind and cbind data, by activity then by subject and finally features. 
 
-Third, rbind and cbind data, important to include variables subject and features. 
+Third, I ensure proper naming of columns.
 
 For Q2, It's a matter of researching the right function to use (happens to be select and matches to subject|activity|mean|SD
 
