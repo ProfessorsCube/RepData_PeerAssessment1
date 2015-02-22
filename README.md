@@ -43,3 +43,8 @@ Fourth, I reapply the clean column names and wrote table to create the tidy data
 a) CodeBook.md  describes the variables, the data, and any transformations or work that was performed to clean up the data.
 b) run_analysis.R  contains all the code to perform the analyses described in the 5 steps. 
 c) The output of the 5th step is called  ProfCubetidy.txt.
+
+# More on the data source
+For each record,  there are three measurements for the  X ,  Y , and  Z  coordinates. The variables that start with  t = time domain, variables that start with  f  =  frequency domain. For every variable, there is a  mean  and an  std  measurement. To read a variable for example,  tBodyAcc.mean.X , is equal to the mean value for the  X  coordinate.
+
+All the values are mean over all measurements for a particular subject and activity.
