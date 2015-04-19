@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting-Cleaning-Data-Project
 This repository hosts the R code and documentation files for the Data Science's course "Getting and Cleaning data", on Coursera.
 The dataset used: Human Activity Recognition Using Smartphones
@@ -48,3 +49,6 @@ c) The output of the 5th step is called  ProfCubetidy.txt.
 For each record,  there are three measurements for the  X ,  Y , and  Z  coordinates. The variables that start with  t = time domain, variables that start with  f  =  frequency domain. For every variable, there is a  mean  and an  std  measurement. To read a variable for example,  tBodyAcc.mean.X , is equal to the mean value for the  X  coordinate.
 
 All the values are mean over all measurements for a particular subject and activity.
+=======
+# RepData_PeerAssessment1
+>>>>>>> aa87ce1f9a4edd51d973e5463da2af9b80f08870
